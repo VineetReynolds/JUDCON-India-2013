@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:osb="http://www.openswatchbook.org/uri/2009/osb"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="520.00049"
+   height="319.99991"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="Agile Testing Pyramid.svg">
+  <defs
+     id="defs4">
+    <linearGradient
+       id="linearGradient5213"
+       osb:paint="solid">
+      <stop
+         style="stop-color:#7800ff;stop-opacity:1;"
+         offset="0"
+         id="stop5215" />
+    </linearGradient>
+    <filter
+       id="filter5460"
+       inkscape:label="Shadowed Text"
+       color-interpolation-filters="sRGB">
+      <feGaussianBlur
+         stdDeviation="1"
+         id="feGaussianBlur5464"
+         in="SourceAlpha" />
+      <feOffset
+         dx="2"
+         dy="2"
+         id="feOffset5466"
+         result="result1" />
+      <feMerge
+         id="feMerge5470">
+        <feMergeNode
+           inkscape:collect="always"
+           id="feMergeNode5472"
+           in="result1" />
+        <feMergeNode
+           inkscape:collect="always"
+           id="feMergeNode5474"
+           in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.4"
+     inkscape:cx="218.63525"
+     inkscape:cy="274.35207"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1366"
+     inkscape:window-height="716"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:snap-to-guides="true"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     fit-margin-top="10"
+     fit-margin-left="10"
+     fit-margin-right="10"
+     fit-margin-bottom="10" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-35.294959,-343.35627)">
+    <path
+       sodipodi:type="star"
+       style="fill:none;stroke:#dbdee3;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="path2987"
+       sodipodi:sides="3"
+       sodipodi:cx="168.57143"
+       sodipodi:cy="363.79074"
+       sodipodi:r1="277.84888"
+       sodipodi:r2="199.30203"
+       sodipodi:arg1="0.52807445"
+       sodipodi:arg2="1.575272"
+       inkscape:flatsided="true"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="M 408.57142,503.79074 -72.672128,501.63684 169.81498,85.944647 z"
+       inkscape:transform-center-x="-9.4872794"
+       inkscape:transform-center-y="9.998048"
+       transform="matrix(1.0301047,0,0,0.70775026,122.28948,294.66354)" />
+    <path
+       style="fill:none;stroke:#dbdee3;stroke-width:4.26924372;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 121.55368,561.23626 345.82096,0 0,0"
+       id="path5380"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;stroke:#dbdee3;stroke-width:4.25870323;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 206.33142,462.65644 178.64752,0"
+       id="path5382"
+       inkscape:connector-curvature="0" />
+    <text
+       xml:space="preserve"
+       style="font-size:26.30283356px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#8080ff;fill-opacity:1;stroke:none;font-family:Droid Sans;-inkscape-font-specification:Droid Sans"
+       x="290.60089"
+       y="615.40771"
+       id="text5440"
+       sodipodi:linespacing="125%"
+       transform="scale(1.0139551,0.98623692)"><tspan
+         sodipodi:role="line"
+         id="tspan5442"
+         x="290.60089"
+         y="615.40771"
+         style="font-size:26.30283356px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill:#8080ff;font-family:Droid Sans;-inkscape-font-specification:Droid Sans">Unit tests</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:26.30283356px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#8080ff;fill-opacity:1;stroke:none;font-family:Droid Sans;-inkscape-font-specification:Droid Sans"
+       x="290.60089"
+       y="451.01501"
+       id="text5444"
+       sodipodi:linespacing="125%"
+       transform="scale(1.0139551,0.98623692)"><tspan
+         sodipodi:role="line"
+         id="tspan5446"
+         x="290.60089"
+         y="451.01501"
+         style="font-size:26.30283356px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill:#8080ff;font-family:Droid Sans;-inkscape-font-specification:Droid Sans">UI Tests</tspan></text>
+    <path
+       style="fill:none;stroke:#dbdee3;stroke-width:4.25797987;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:4.25798011, 4.25798011;stroke-dashoffset:0"
+       d="m 165.61661,510.30975 259.78913,0 0,0"
+       id="path5450"
+       inkscape:connector-curvature="0" />
+    <text
+       xml:space="preserve"
+       style="font-size:26.30283356px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#8080ff;fill-opacity:1;stroke:none;font-family:Droid Sans;-inkscape-font-specification:Droid Sans"
+       x="290.9798"
+       y="555.68243"
+       id="text5452"
+       sodipodi:linespacing="125%"
+       transform="scale(1.0139551,0.98623692)"><tspan
+         sodipodi:role="line"
+         id="tspan5454"
+         x="290.9798"
+         y="555.68243"
+         style="font-size:26.30283356px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill:#8080ff;font-family:Droid Sans;-inkscape-font-specification:Droid Sans">Component Tests</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:26.30283356px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#8080ff;fill-opacity:1;stroke:none;font-family:Droid Sans;-inkscape-font-specification:Droid Sans"
+       x="291.25592"
+       y="505.86395"
+       id="text5456"
+       sodipodi:linespacing="125%"
+       transform="scale(1.0139551,0.98623692)"><tspan
+         sodipodi:role="line"
+         id="tspan5458"
+         x="291.25592"
+         y="505.86395"
+         style="font-size:26.30283356px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill:#8080ff;font-family:Droid Sans;-inkscape-font-specification:Droid Sans">Integration Tests</tspan></text>
+  </g>
+</svg>
