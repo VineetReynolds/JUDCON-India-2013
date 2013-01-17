@@ -15,7 +15,7 @@
    id="svg2"
    version="1.1"
    inkscape:version="0.48.4 r9939"
-   sodipodi:docname="Agile Testing Pyramid.svg">
+   sodipodi:docname="Agile Testing Pyramid-persistence.svg">
   <defs
      id="defs4">
     <linearGradient
@@ -360,9 +360,9 @@
     </filter>
     <filter
        id="filter6449"
-       inkscape:label="Jigsaw piece"
-       inkscape:menu="Bevels"
-       inkscape:menu-tooltip="Low, sharp bevel"
+       inkscape:label="Simple blur"
+       inkscape:menu="ABCs"
+       inkscape:menu-tooltip="Simple Gaussian blur, same as the blur slider in Fill and Stroke dialog"
        color-interpolation-filters="sRGB">
       <feSpecularLighting
          id="feSpecularLighting6451"
@@ -390,13 +390,23 @@
       <feComposite
          id="feComposite6459"
          in2="result1"
-         in="result0" />
+         in="result0"
+         result="fbSourceGraphic" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix6928" />
+      <feGaussianBlur
+         id="feGaussianBlur6930"
+         stdDeviation="3"
+         in="fbSourceGraphic" />
     </filter>
     <filter
        id="filter6461"
-       inkscape:label="Jigsaw piece"
-       inkscape:menu="Bevels"
-       inkscape:menu-tooltip="Low, sharp bevel"
+       inkscape:label="Simple blur"
+       inkscape:menu="ABCs"
+       inkscape:menu-tooltip="Simple Gaussian blur, same as the blur slider in Fill and Stroke dialog"
        color-interpolation-filters="sRGB">
       <feSpecularLighting
          id="feSpecularLighting6463"
@@ -424,7 +434,69 @@
       <feComposite
          id="feComposite6471"
          in2="result1"
-         in="result0" />
+         in="result0"
+         result="fbSourceGraphic" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix6924" />
+      <feGaussianBlur
+         id="feGaussianBlur6926"
+         stdDeviation="3"
+         in="fbSourceGraphic" />
+    </filter>
+    <filter
+       id="filter6908"
+       inkscape:label="Apparition"
+       x="0"
+       y="0"
+       width="1"
+       height="1"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Edges are partly feathered out"
+       color-interpolation-filters="sRGB">
+      <feMorphology
+         id="feMorphology6910"
+         radius="4"
+         in="SourceGraphic"
+         result="result0" />
+      <feGaussianBlur
+         id="feGaussianBlur6912"
+         in="result0"
+         stdDeviation="8"
+         result="result91" />
+      <feComposite
+         id="feComposite6914"
+         in2="result91"
+         operator="in"
+         in="SourceGraphic" />
+    </filter>
+    <filter
+       id="filter6916"
+       inkscape:label="Apparition"
+       x="0"
+       y="0"
+       width="1"
+       height="1"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Edges are partly feathered out"
+       color-interpolation-filters="sRGB">
+      <feMorphology
+         id="feMorphology6918"
+         radius="4"
+         in="SourceGraphic"
+         result="result0" />
+      <feGaussianBlur
+         id="feGaussianBlur6920"
+         in="result0"
+         stdDeviation="8"
+         result="result91" />
+      <feComposite
+         id="feComposite6922"
+         in2="result91"
+         operator="in"
+         in="SourceGraphic" />
     </filter>
   </defs>
   <sodipodi:namedview
@@ -472,6 +544,11 @@
      id="layer1"
      transform="translate(22.501925,-325.54539)">
     <path
+       style="fill:#550000;stroke:#550000;stroke-width:0.9914788px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;filter:url(#filter6449)"
+       d="m 293.20645,346.99973 88.74991,108.59448 -179.48877,0 z"
+       id="path5693"
+       inkscape:connector-curvature="0" />
+    <path
        style="fill:#2d5016;stroke:#2d5016;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;filter:url(#filter6461)"
        d="m 115.80166,558.35168 351.11098,0.005 75.69922,91.02737 -504.103441,0 z"
        id="path5689"
@@ -486,14 +563,9 @@
        d="m 201.64648,456.58957 181.10722,0.004 40.64724,49.28533 -263.2441,0 z"
        id="path5733"
        inkscape:connector-curvature="0" />
-    <path
-       style="fill:#550000;stroke:#550000;stroke-width:0.9914788px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;filter:url(#filter6449)"
-       d="m 293.20645,346.99973 88.74991,108.59448 -179.48877,0 z"
-       id="path5693"
-       inkscape:connector-curvature="0" />
     <text
        xml:space="preserve"
-       style="font-size:26.30283356px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#aade87;fill-opacity:1;stroke:#aade87;filter:url(#filter5460);font-family:Droid Sans;-inkscape-font-specification:Droid Sans"
+       style="font-size:26.30283355999999984px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#aade87;fill-opacity:1;stroke:#aade87;font-family:Droid Sans;-inkscape-font-specification:Droid Sans;filter:url(#filter6916)"
        x="290.60089"
        y="615.40771"
        id="text5440"
@@ -506,7 +578,7 @@
          style="font-size:26.30283356px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill:#aade87;stroke:#aade87;font-family:Droid Sans;-inkscape-font-specification:Droid Sans">Unit tests</tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:26.30283356px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#de8787;fill-opacity:1;stroke:#de8787;filter:url(#filter5460);font-family:Droid Sans;-inkscape-font-specification:Droid Sans"
+       style="font-size:26.30283355999999984px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#de8787;fill-opacity:1;stroke:#de8787;font-family:Droid Sans;-inkscape-font-specification:Droid Sans;filter:url(#filter6908)"
        x="290.60089"
        y="451.01501"
        id="text5444"

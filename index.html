@@ -1,4 +1,4 @@
-<!doctype html>
+ <!doctype html>
 <html lang="en">
 
 	<head>
@@ -37,6 +37,8 @@
                 <section>
                     <h2>The Arquillian Universe</h2>
                     <p>A tour around the astrophysics lab</p>
+                    <p>JUDCON India 2013</p>
+                    <br/>
                     <p>Vineet Reynolds L. P.<p>
                     <p>Red Hat</p>
                 </section>
@@ -80,11 +82,10 @@
                 </section>
                 <section>
                     <h2>Core extensions</h2>
-                    <p>You'll usually need these...</p>
+                    <p>You typically need these...</p>
                     <ul>
                         <li>Container</li>
                         <li>Test</li>
-                        <li>Container Test</li>
                     </ul>
                 </section>
                 <section>
@@ -94,7 +95,7 @@
                         <li>JUnit</li>
                         <li>TestNG</li>
                     </ul>
-                    <p>Or drive your development through tests...</p>
+                    <p>Or drive your development through stories/specifications...</p>
                     <ul>
                         <li>Spock</li>
                         <li>JBehave*</li>
@@ -126,16 +127,47 @@
                     </section>
                 </section>
                 <section>
+                    <h2>Arquillian &amp; the Testing pyramid</h2>
+                    <image src="images/Agile Testing Pyramid-arquillian.svg"></image>
+                </section>
+                <section>
                     <section>
-                        <h2>Arquillian Persistence</h2>
-                        <p>So you don't fight your Data Access Layer</p>
-                        <image src="images/Agile Testing Pyramid.svg"></image>
+                        <h2>Arquillian Drone</h2>
+                        <p>Selenium/WebDriver for functional black box tests</p>
+                        <image src="images/Agile Testing Pyramid-drone.svg"></image>
+                    </section>
+                    <section>
+                        <h3>Choice of browsers?</h3>
+                        <p>Target the ones your customers use.</p>
+                        <p>What about HtmlUnit/PhantomJS?</p>
                     </section>
                 </section>
                 <section>
                     <section>
+                        <h2>Arquillian Warp</h2>
+                        <p>Don't let your black box tests fool you</p>
+                        <image src="images/Agile Testing Pyramid-warp.svg"></image>
+                    </section>
+                    <section>
+                        <h3>This is cool. Where can I use it?</h3>
+                        <p>We're testing the UI and...</p>
+                        <p>also performing state verification of 'testable' models or their substitutes.</p>
+                    </section>
+                </section>
+                <section>
+                    <section>
+                        <h2>Arquillian Persistence</h2>
+                        <p>So you don't fight your Data Access Layer</p>
+                        <image src="images/Agile Testing Pyramid-persistence.svg"></image>
+                    </section>
+                    <section>
                         <h3>Rollback or Commit on every test?</h3>
-                        <p>Prefer commits. Test your database engine thoroughly.</p>
+                        <p>Test your database engine <i>thoroughly</i> as early as you can.</p>
+                        <ul>In general,
+                            <li>Commit in component and integration tests.</li>
+                            <li>Rollback in higher-level tests.</li>
+                            <li>And cleanup correctly.</li>
+                        </ul>
                     </section>
                     <section>
                         <h3>Transaction Isolation levels</h3>
@@ -151,7 +183,7 @@ public void testCreateAccountForCustomer() {
     customerService.createAccount(customer);
 
     // Verify. Query for the updated customer
-    // Avoid this, for REPEATABLE_READ/SERIALIZABLE
+    // Avoid **this**, for REPEATABLE_READ/SERIALIZABLE
     em.flush();
     em.clear();
     Customer updatedCustomer = em.find(Customer.class, 1L);
@@ -168,18 +200,12 @@ public void testCreateAccountForCustomer() {
                     </section>
                     <section>
                         <h3>Dataset explosion?</h3>
-                        <p>Test for state transitions.</p>
-                        <p>Avoid large datasets if you can.</p>
-                        <p>Design and prepare datasets for reuse across tests.</p>
+                        <ul>
+                            <li>Avoid large datasets (if you can).</li>
+                            <li>Design and prepare datasets for reuse across tests.</li>
+                            <li>It helps to store snapshots of entities across state transitions.</li>
+                        </ul>
                     </section>
-                </section>
-                <section>
-                    <h2>Arquillian Drone</h2>
-                    <p>Selenium/WebDriver for functional black box tests</p>
-                </section>
-                <section>
-                    <h2>Arquillian Warp</h2>
-                    <p>Don't let your black box tests fool you</p>
                 </section>
                 <section>
                     <h2>That's it?</h2>

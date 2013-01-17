@@ -15,7 +15,7 @@
    id="svg2"
    version="1.1"
    inkscape:version="0.48.4 r9939"
-   sodipodi:docname="Agile Testing Pyramid.svg">
+   sodipodi:docname="Agile Testing Pyramid-warp.svg">
   <defs
      id="defs4">
     <linearGradient
@@ -292,9 +292,9 @@
     </filter>
     <filter
        id="filter6425"
-       inkscape:label="Jigsaw piece"
-       inkscape:menu="Bevels"
-       inkscape:menu-tooltip="Low, sharp bevel"
+       inkscape:label="Simple blur"
+       inkscape:menu="ABCs"
+       inkscape:menu-tooltip="Simple Gaussian blur, same as the blur slider in Fill and Stroke dialog"
        color-interpolation-filters="sRGB">
       <feSpecularLighting
          id="feSpecularLighting6427"
@@ -322,7 +322,17 @@
       <feComposite
          id="feComposite6435"
          in2="result1"
-         in="result0" />
+         in="result0"
+         result="fbSourceGraphic" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix6952" />
+      <feGaussianBlur
+         id="feGaussianBlur6954"
+         stdDeviation="3"
+         in="fbSourceGraphic" />
     </filter>
     <filter
        id="filter6437"
@@ -394,9 +404,9 @@
     </filter>
     <filter
        id="filter6461"
-       inkscape:label="Jigsaw piece"
-       inkscape:menu="Bevels"
-       inkscape:menu-tooltip="Low, sharp bevel"
+       inkscape:label="Simple blur"
+       inkscape:menu="ABCs"
+       inkscape:menu-tooltip="Simple Gaussian blur, same as the blur slider in Fill and Stroke dialog"
        color-interpolation-filters="sRGB">
       <feSpecularLighting
          id="feSpecularLighting6463"
@@ -424,7 +434,69 @@
       <feComposite
          id="feComposite6471"
          in2="result1"
-         in="result0" />
+         in="result0"
+         result="fbSourceGraphic" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix6948" />
+      <feGaussianBlur
+         id="feGaussianBlur6950"
+         stdDeviation="3"
+         in="fbSourceGraphic" />
+    </filter>
+    <filter
+       id="filter6932"
+       inkscape:label="Apparition"
+       x="0"
+       y="0"
+       width="1"
+       height="1"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Edges are partly feathered out"
+       color-interpolation-filters="sRGB">
+      <feMorphology
+         id="feMorphology6934"
+         radius="4"
+         in="SourceGraphic"
+         result="result0" />
+      <feGaussianBlur
+         id="feGaussianBlur6936"
+         in="result0"
+         stdDeviation="8"
+         result="result91" />
+      <feComposite
+         id="feComposite6938"
+         in2="result91"
+         operator="in"
+         in="SourceGraphic" />
+    </filter>
+    <filter
+       id="filter6940"
+       inkscape:label="Apparition"
+       x="0"
+       y="0"
+       width="1"
+       height="1"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Edges are partly feathered out"
+       color-interpolation-filters="sRGB">
+      <feMorphology
+         id="feMorphology6942"
+         radius="4"
+         in="SourceGraphic"
+         result="result0" />
+      <feGaussianBlur
+         id="feGaussianBlur6944"
+         in="result0"
+         stdDeviation="8"
+         result="result91" />
+      <feComposite
+         id="feComposite6946"
+         in2="result91"
+         operator="in"
+         in="SourceGraphic" />
     </filter>
   </defs>
   <sodipodi:namedview
@@ -493,7 +565,7 @@
        inkscape:connector-curvature="0" />
     <text
        xml:space="preserve"
-       style="font-size:26.30283356px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#aade87;fill-opacity:1;stroke:#aade87;filter:url(#filter5460);font-family:Droid Sans;-inkscape-font-specification:Droid Sans"
+       style="font-size:26.30283355999999984px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#aade87;fill-opacity:1;stroke:#aade87;font-family:Droid Sans;-inkscape-font-specification:Droid Sans;filter:url(#filter6932)"
        x="290.60089"
        y="615.40771"
        id="text5440"
@@ -519,7 +591,7 @@
          style="font-size:26.30283356px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill:#de8787;stroke:#de8787;font-family:Droid Sans;-inkscape-font-specification:Droid Sans">UI Tests</tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:26.30283356px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#939dac;fill-opacity:1;stroke:#939dac;filter:url(#filter5460);font-family:Droid Sans;-inkscape-font-specification:Droid Sans"
+       style="font-size:26.30283355999999984px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#939dac;fill-opacity:1;stroke:#939dac;font-family:Droid Sans;-inkscape-font-specification:Droid Sans;filter:url(#filter6940)"
        x="290.9798"
        y="555.68243"
        id="text5452"

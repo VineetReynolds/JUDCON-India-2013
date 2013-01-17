@@ -1,0 +1,464 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   version="1.1"
+   width="626.12415"
+   height="343.5419"
+   id="svg2">
+  <defs
+     id="defs4">
+    <linearGradient
+       id="linearGradient5213">
+      <stop
+         id="stop5215"
+         style="stop-color:#7800ff;stop-opacity:1"
+         offset="0" />
+    </linearGradient>
+    <filter
+       width="1.2"
+       color-interpolation-filters="sRGB"
+       id="filter5460">
+      <feGaussianBlur
+         in="SourceAlpha"
+         id="feGaussianBlur5464"
+         stdDeviation="1" />
+      <feOffset
+         result="result1"
+         id="feOffset5466"
+         dy="2"
+         dx="2" />
+      <feMerge
+         id="feMerge5470">
+        <feMergeNode
+           in="result1"
+           id="feMergeNode5472" />
+        <feMergeNode
+           in="SourceGraphic"
+           id="feMergeNode5474" />
+      </feMerge>
+    </filter>
+    <filter
+       color-interpolation-filters="sRGB"
+       id="filter5695">
+      <feSpecularLighting
+         result="result1"
+         specularExponent="18.5"
+         specularConstant="2"
+         surfaceScale="1"
+         in="SourceAlpha"
+         id="feSpecularLighting5697">
+        <feDistantLight
+           azimuth="225"
+           elevation="30"
+           id="feDistantLight5699" />
+      </feSpecularLighting>
+      <feComposite
+         in2="SourceGraphic"
+         operator="atop"
+         result="result0"
+         id="feComposite5701" />
+      <feMorphology
+         operator="dilate"
+         in="SourceAlpha"
+         result="result1"
+         radius="2"
+         id="feMorphology5703" />
+      <feComposite
+         in2="result1"
+         in="result0"
+         id="feComposite5705" />
+    </filter>
+    <filter
+       color-interpolation-filters="sRGB"
+       id="filter5707">
+      <feSpecularLighting
+         result="result1"
+         specularExponent="18.5"
+         specularConstant="2"
+         surfaceScale="1"
+         in="SourceAlpha"
+         id="feSpecularLighting5709">
+        <feDistantLight
+           azimuth="225"
+           elevation="30"
+           id="feDistantLight5711" />
+      </feSpecularLighting>
+      <feComposite
+         in2="SourceGraphic"
+         operator="atop"
+         result="result0"
+         id="feComposite5713" />
+      <feMorphology
+         operator="dilate"
+         in="SourceAlpha"
+         result="result1"
+         radius="2"
+         id="feMorphology5715" />
+      <feComposite
+         in2="result1"
+         in="result0"
+         id="feComposite5717" />
+    </filter>
+    <filter
+       color-interpolation-filters="sRGB"
+       id="filter5719">
+      <feSpecularLighting
+         result="result1"
+         specularExponent="18.5"
+         specularConstant="2"
+         surfaceScale="1"
+         in="SourceAlpha"
+         id="feSpecularLighting5721">
+        <feDistantLight
+           azimuth="225"
+           elevation="30"
+           id="feDistantLight5723" />
+      </feSpecularLighting>
+      <feComposite
+         in2="SourceGraphic"
+         operator="atop"
+         result="result0"
+         id="feComposite5725" />
+      <feMorphology
+         operator="dilate"
+         in="SourceAlpha"
+         result="result1"
+         radius="2"
+         id="feMorphology5727" />
+      <feComposite
+         in2="result1"
+         in="result0"
+         id="feComposite5729" />
+    </filter>
+    <filter
+       color-interpolation-filters="sRGB"
+       id="filter5737">
+      <feSpecularLighting
+         result="result1"
+         specularExponent="18.5"
+         specularConstant="2"
+         surfaceScale="1"
+         in="SourceAlpha"
+         id="feSpecularLighting5739">
+        <feDistantLight
+           azimuth="225"
+           elevation="30"
+           id="feDistantLight5741" />
+      </feSpecularLighting>
+      <feComposite
+         in2="SourceGraphic"
+         operator="atop"
+         result="result0"
+         id="feComposite5743" />
+      <feMorphology
+         operator="dilate"
+         in="SourceAlpha"
+         result="result1"
+         radius="2"
+         id="feMorphology5745" />
+      <feComposite
+         in2="result1"
+         in="result0"
+         id="feComposite5747" />
+    </filter>
+    <filter
+       color-interpolation-filters="sRGB"
+       id="filter5749">
+      <feSpecularLighting
+         result="result1"
+         specularExponent="18.5"
+         specularConstant="2"
+         surfaceScale="1"
+         in="SourceAlpha"
+         id="feSpecularLighting5751">
+        <feDistantLight
+           azimuth="225"
+           elevation="30"
+           id="feDistantLight5753" />
+      </feSpecularLighting>
+      <feComposite
+         in2="SourceGraphic"
+         operator="atop"
+         result="result0"
+         id="feComposite5755" />
+      <feMorphology
+         operator="dilate"
+         in="SourceAlpha"
+         result="result1"
+         radius="2"
+         id="feMorphology5757" />
+      <feComposite
+         in2="result1"
+         in="result0"
+         id="feComposite5759" />
+    </filter>
+    <filter
+       color-interpolation-filters="sRGB"
+       id="filter5761">
+      <feSpecularLighting
+         result="result1"
+         specularExponent="18.5"
+         specularConstant="2"
+         surfaceScale="1"
+         in="SourceAlpha"
+         id="feSpecularLighting5763">
+        <feDistantLight
+           azimuth="225"
+           elevation="30"
+           id="feDistantLight5765" />
+      </feSpecularLighting>
+      <feComposite
+         in2="SourceGraphic"
+         operator="atop"
+         result="result0"
+         id="feComposite5767" />
+      <feMorphology
+         operator="dilate"
+         in="SourceAlpha"
+         result="result1"
+         radius="2"
+         id="feMorphology5769" />
+      <feComposite
+         in2="result1"
+         in="result0"
+         id="feComposite5771" />
+    </filter>
+    <filter
+       color-interpolation-filters="sRGB"
+       id="filter5773">
+      <feSpecularLighting
+         result="result1"
+         specularExponent="18.5"
+         specularConstant="2"
+         surfaceScale="1"
+         in="SourceAlpha"
+         id="feSpecularLighting5775">
+        <feDistantLight
+           azimuth="225"
+           elevation="30"
+           id="feDistantLight5777" />
+      </feSpecularLighting>
+      <feComposite
+         in2="SourceGraphic"
+         operator="atop"
+         result="result0"
+         id="feComposite5779" />
+      <feMorphology
+         operator="dilate"
+         in="SourceAlpha"
+         result="result1"
+         radius="2"
+         id="feMorphology5781" />
+      <feComposite
+         in2="result1"
+         in="result0"
+         id="feComposite5783" />
+    </filter>
+    <filter
+       color-interpolation-filters="sRGB"
+       id="filter6425">
+      <feSpecularLighting
+         result="result1"
+         specularExponent="18.5"
+         specularConstant="2"
+         surfaceScale="1"
+         in="SourceAlpha"
+         id="feSpecularLighting6427">
+        <feDistantLight
+           azimuth="225"
+           elevation="30"
+           id="feDistantLight6429" />
+      </feSpecularLighting>
+      <feComposite
+         in2="SourceGraphic"
+         operator="atop"
+         result="result0"
+         id="feComposite6431" />
+      <feMorphology
+         operator="dilate"
+         in="SourceAlpha"
+         result="result1"
+         radius="2"
+         id="feMorphology6433" />
+      <feComposite
+         in2="result1"
+         in="result0"
+         id="feComposite6435" />
+    </filter>
+    <filter
+       color-interpolation-filters="sRGB"
+       id="filter6437">
+      <feSpecularLighting
+         result="result1"
+         specularExponent="18.5"
+         specularConstant="2"
+         surfaceScale="1"
+         in="SourceAlpha"
+         id="feSpecularLighting6439">
+        <feDistantLight
+           azimuth="225"
+           elevation="30"
+           id="feDistantLight6441" />
+      </feSpecularLighting>
+      <feComposite
+         in2="SourceGraphic"
+         operator="atop"
+         result="result0"
+         id="feComposite6443" />
+      <feMorphology
+         operator="dilate"
+         in="SourceAlpha"
+         result="result1"
+         radius="2"
+         id="feMorphology6445" />
+      <feComposite
+         in2="result1"
+         in="result0"
+         id="feComposite6447" />
+    </filter>
+    <filter
+       color-interpolation-filters="sRGB"
+       id="filter6449">
+      <feSpecularLighting
+         result="result1"
+         specularExponent="18.5"
+         specularConstant="2"
+         surfaceScale="1"
+         in="SourceAlpha"
+         id="feSpecularLighting6451">
+        <feDistantLight
+           azimuth="225"
+           elevation="30"
+           id="feDistantLight6453" />
+      </feSpecularLighting>
+      <feComposite
+         in2="SourceGraphic"
+         operator="atop"
+         result="result0"
+         id="feComposite6455" />
+      <feMorphology
+         operator="dilate"
+         in="SourceAlpha"
+         result="result1"
+         radius="2"
+         id="feMorphology6457" />
+      <feComposite
+         in2="result1"
+         in="result0"
+         id="feComposite6459" />
+    </filter>
+    <filter
+       color-interpolation-filters="sRGB"
+       id="filter6461">
+      <feSpecularLighting
+         result="result1"
+         specularExponent="18.5"
+         specularConstant="2"
+         surfaceScale="1"
+         in="SourceAlpha"
+         id="feSpecularLighting6463">
+        <feDistantLight
+           azimuth="225"
+           elevation="30"
+           id="feDistantLight6465" />
+      </feSpecularLighting>
+      <feComposite
+         in2="SourceGraphic"
+         operator="atop"
+         result="result0"
+         id="feComposite6467" />
+      <feMorphology
+         operator="dilate"
+         in="SourceAlpha"
+         result="result1"
+         radius="2"
+         id="feMorphology6469" />
+      <feComposite
+         in2="result1"
+         in="result0"
+         id="feComposite6471" />
+    </filter>
+  </defs>
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     transform="translate(22.501925,-325.54539)"
+     id="layer1">
+    <path
+       d="m 115.80166,558.35168 351.11098,0.005 75.69922,91.02737 -504.103441,0 z"
+       id="path5689"
+       style="fill:#2d5016;stroke:#2d5016;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;filter:url(#filter6461)" />
+    <path
+       d="m 159.34231,506.88972 264.91445,0 42.33517,50.97311 -350.43858,0 z"
+       id="path5735"
+       style="fill:#162d50;stroke:#162d50;stroke-width:0.99894345px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;filter:url(#filter6425)" />
+    <path
+       d="m 201.64648,456.58957 181.10722,0.004 40.64724,49.28533 -263.2441,0 z"
+       id="path5733"
+       style="fill:#162d50;stroke:#162d50;stroke-width:0.9959197px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;filter:url(#filter6437)" />
+    <path
+       d="m 293.20645,346.99973 88.74991,108.59448 -179.48877,0 z"
+       id="path5693"
+       style="fill:#550000;stroke:#550000;stroke-width:0.9914788px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;filter:url(#filter6449)" />
+    <text
+       x="290.60089"
+       y="615.40771"
+       transform="scale(1.0139551,0.98623692)"
+       id="text5440"
+       xml:space="preserve"
+       style="font-size:26.30283356px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#aade87;fill-opacity:1;stroke:#aade87;filter:url(#filter5460);font-family:Droid Sans;-inkscape-font-specification:Droid Sans"><tspan
+         x="290.60089"
+         y="615.40771"
+         id="tspan5442"
+         style="font-size:26.30283356px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill:#aade87;stroke:#aade87;font-family:Droid Sans;-inkscape-font-specification:Droid Sans">Unit tests</tspan></text>
+    <text
+       x="290.60089"
+       y="451.01501"
+       transform="scale(1.0139551,0.98623692)"
+       id="text5444"
+       xml:space="preserve"
+       style="font-size:26.30283356px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#de8787;fill-opacity:1;stroke:#de8787;filter:url(#filter5460);font-family:Droid Sans;-inkscape-font-specification:Droid Sans"><tspan
+         x="290.60089"
+         y="451.01501"
+         id="tspan5446"
+         style="font-size:26.30283356px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill:#de8787;stroke:#de8787;font-family:Droid Sans;-inkscape-font-specification:Droid Sans">UI Tests</tspan></text>
+    <text
+       x="290.9798"
+       y="555.68243"
+       transform="scale(1.0139551,0.98623692)"
+       id="text5452"
+       xml:space="preserve"
+       style="font-size:26.30283356px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#939dac;fill-opacity:1;stroke:#939dac;filter:url(#filter5460);font-family:Droid Sans;-inkscape-font-specification:Droid Sans"><tspan
+         x="290.9798"
+         y="555.68243"
+         id="tspan5454"
+         style="font-size:26.30283356px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill:#939dac;stroke:#939dac;font-family:Droid Sans;-inkscape-font-specification:Droid Sans">Component Tests</tspan></text>
+    <text
+       x="291.25592"
+       y="505.86395"
+       transform="scale(1.0139551,0.98623692)"
+       id="text5456"
+       xml:space="preserve"
+       style="font-size:26.30283356px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#939dac;fill-opacity:1;stroke:#939dac;filter:url(#filter5460);font-family:Droid Sans;-inkscape-font-specification:Droid Sans"><tspan
+         x="291.25592"
+         y="505.86395"
+         id="tspan5458"
+         style="font-size:26.30283356px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill:#939dac;stroke:#939dac;font-family:Droid Sans;-inkscape-font-specification:Droid Sans">Integration Tests</tspan></text>
+  </g>
+</svg>
